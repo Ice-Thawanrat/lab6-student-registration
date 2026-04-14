@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Registration</title>
+
+  <!-- tailwind -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- css -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- font -->
+  <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
+  
+</head>
+  <body class="bg-gray-100">
+    <nav class="nav sticky top-0">
+      <h1>Student Registration</h1>
+      <button class="btn-nav">ลงทะเบียน</button>
+    </nav>
+
+    <div class="box">
+
+      <div class="card">
+
+        <h2 class="title">ลงทะเบียนนักศึกษา</h2>
+
+        <form id="form">
+          <input id="name" class="inp" placeholder="ชื่อ-นามสกุล" required>
+
+          <div class="row">
+            <input id="studentId" class="inp" placeholder="รหัสนักศึกษา">
+            <input id="dept" class="inp" placeholder="คณะ">
+          </div>
+
+          <input id="email" class="inp" placeholder="E-mail">
+
+          <button class="btn">ส่งข้อมูล</button>
+
+        </form>
+
+        <p id="ok" class="hide success">ลงทะเบียนสำเร็จ</p>
+
+        <div id="list"></div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

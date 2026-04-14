@@ -1,0 +1,101 @@
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+body{
+    font-family: 'Kanit', sans-serif;
+}
+
+.nav{
+    background: white;
+    padding: 12px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+/* กรอบคลุมทั้งหมด */
+.card{
+    background: white;
+    padding: 20px;
+    width: 400px;
+    border-radius: 12px;
+    box-shadow: 0 5px 10px rgb(0, 0, 0, 0.1);
+}
+
+.title{
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #10359b;
+}
+
+.inp{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid#ccc;
+    border-radius: 10px;
+}
+
+.inp:focus{
+    outline: none;
+    box-shadow: 0 0 0 2px #3b82f6;
+}
+
+.btn{
+    width: 100%;
+    padding: 10px;
+    background: #10359b;
+    color: white;
+    border-radius: 10px;
+}
+
+.btn:hover{
+    background: #1d4ed8;
+}
+
+.btn-nav{
+    width: auto;
+    padding: 8px 16px;
+    background: #2563eb;
+    color: white;
+    border-radius: 8px;
+    border: none; 
+}
+
+.btn-nav:hover{
+    background: #1d4ed8;
+}
+
+.row{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.hide{
+    display: none;
+}
+
+.success{
+    text-align: center;
+    color: green;
+    margin-top: 20px;
+}
+
+.item{
+    margin-top: 10px;
+    padding: 10px;
+    background: #681010;
+    border-radius: 8px;
+}
+
